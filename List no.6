@@ -1,0 +1,7 @@
+n = int(input("Enter how many Fibonacci numbers you want: "))
+fibonacci = []
+a, b = 0, 1
+for _ in range(n):
+    fibonacci.append(a)
+    a, b = b, a + b
+print("First", n, "Fibonacci numbers:", fibonacci)

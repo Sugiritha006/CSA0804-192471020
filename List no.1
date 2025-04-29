@@ -1,0 +1,11 @@
+def find_kth_smallest(numbers, k):
+    numbers.sort()
+    return numbers[k - 1]
+user_input = input("Enter numbers separated by spaces: ")
+number_list = list(map(int, user_input.split()))
+k = int(input("Enter the value of k: "))
+if 0 < k <= len(number_list):
+    result = find_kth_smallest(number_list, k)
+    print(f"The {k}th smallest number is:", result)
+else:
+    print("Invalid value of k")

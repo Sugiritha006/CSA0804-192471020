@@ -1,0 +1,14 @@
+def find_max_min(lst):
+    if not lst:
+        return None, None  
+   maximum = minimum = lst[0]
+    for num in lst[1:]:
+        if num > maximum:
+            maximum = num
+        if num < minimum:
+            minimum = num
+    return maximum, minimum
+numbers = [10, 3, 5, 22, -1, 8]
+max_val, min_val = find_max_min(numbers)
+print("Maximum:", max_val)
+print("Minimum:", min_val)

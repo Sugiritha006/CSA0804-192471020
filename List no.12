@@ -1,0 +1,6 @@
+a=input("enter list=")
+a=list(map(int, a.split()))
+b=input("enter list=")
+b=list(map(int, b.split()))
+concat=a+b
+print(concat)

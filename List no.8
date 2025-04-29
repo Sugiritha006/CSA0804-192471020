@@ -1,0 +1,7 @@
+list1_input = input("Enter the first sorted list (space-separated): ")
+list1 = list(map(int, list1_input.split()))
+list2_input = input("Enter the second sorted list (space-separated): ")
+list2 = list(map(int, list2_input.split()))
+merged_list = list1 + list2
+merged_list.sort()
+print("Merged and sorted list:", merged_list)

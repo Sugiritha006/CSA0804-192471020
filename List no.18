@@ -1,0 +1,6 @@
+my_list = [10, 20, 4, 45, 99]
+smallest = my_list[0]
+for num in my_list[1:]:
+    if num < smallest:
+        smallest = num
+print("The smallest number in the list is:", smallest)

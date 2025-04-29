@@ -1,0 +1,7 @@
+my_list = [10, 20, 30, 40, 50]
+element_to_find = 30
+if element_to_find in my_list:
+    index = my_list.index(element_to_find)
+    print(f"Element {element_to_find} found at index {index}")
+else:
+    print(f"Element {element_to_find} not found in the list")

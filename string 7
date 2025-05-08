@@ -1,0 +1,7 @@
+text = "programming"
+common_chars = ""
+for i in text:
+    if text.count(i) > 1 and i not in common_chars:
+        common_chars += i
+
+print("Common characters:", common_chars)

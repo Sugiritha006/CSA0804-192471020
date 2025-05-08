@@ -1,0 +1,12 @@
+my_dict = {'a': 10, 'b': 25, 'c': 5}
+value_to_check = 25
+exists = False
+for val in my_dict.values():
+    if val == value_to_check:
+        exists = True
+        break
+
+if exists:
+    print(f"Value {value_to_check} exists in the dictionary.")
+else:
+    print(f"Value {value_to_check} does not exist in the dictionary.")

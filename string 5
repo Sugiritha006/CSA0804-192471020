@@ -1,0 +1,9 @@
+main_string = "hello world"
+sub_string = "world"
+
+index = main_string.find(sub_string)
+
+if index != -1:
+    print(f"The substring '{sub_string}' is found at index {index}.")
+else:
+    print(f"The substring '{sub_string}' was not found.")

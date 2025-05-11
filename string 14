@@ -1,0 +1,7 @@
+import re
+
+text = "Hello, world! 123 #$%"
+
+result = re.sub(r'\b[a-zA-Z]+\b', '', text)
+
+print("String after removing words:", result)

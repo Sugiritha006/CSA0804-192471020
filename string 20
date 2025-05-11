@@ -1,0 +1,5 @@
+text = "banana"
+old_char = "a"
+new_char = "o"
+result = text.replace(old_char, new_char)
+print("Updated string:", result)

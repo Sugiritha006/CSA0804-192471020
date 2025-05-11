@@ -1,0 +1,8 @@
+text = "hello123"
+
+has_digit = any(char.isdigit() for char in text)
+
+if has_digit:
+    print("The string contains digits.")
+else:
+    print("The string does not contain digits.")

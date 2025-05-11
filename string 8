@@ -1,0 +1,9 @@
+text = "apple banana apple orange banana apple orange banana"
+words = text.split()
+freq = {}
+for w in words:
+    freq[w] = freq.get(w, 0) + 1
+
+second = sorted(freq.items(), key=lambda x: x[1], reverse=True)[1][0]
+
+print("Second most frequent word:", second)

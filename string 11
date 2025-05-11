@@ -1,0 +1,7 @@
+text = "the sky is blue and the sea is blue"
+old_word = "blue"
+new_word = "green"
+
+result = text.replace(old_word, new_word)
+
+print("Updated string:", result)

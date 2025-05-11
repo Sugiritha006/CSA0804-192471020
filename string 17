@@ -1,0 +1,3 @@
+text = "python is fun to learn"
+capitalized_text = text.title()
+print("Capitalized string:", capitalized_text)

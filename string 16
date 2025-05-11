@@ -1,0 +1,6 @@
+text = "Python is a powerful programming language"
+
+words = text.split()
+longest = max(words, key=len)
+
+print("Longest word:", longest)

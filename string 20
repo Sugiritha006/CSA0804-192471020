@@ -1,5 +1,10 @@
-text = "banana"
-old_char = "a"
-new_char = "o"
-result = text.replace(old_char, new_char)
-print("Updated string:", result)
+text = "hello world, how low will we go?"
+char = "l"
+count = 0
+
+for c in text:
+    if c == char:
+        count += 1
+
+print(f"Character '{char}' occurs {count} times.")
+

@@ -5,6 +5,4 @@ if "@" in email and "." in email:
     if at_index > 0 and dot_index > at_index + 1 and dot_index < len(email) - 1:
         print("Valid email address")
     else:
-        print("Invalid email address")
-else:
-    print("Invalid email address")
+        print("Invalid email address)

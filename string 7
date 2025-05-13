@@ -1,7 +1,11 @@
-text = "programming"
-common_chars = ""
-for i in text:
-    if text.count(i) > 1 and i not in common_chars:
-        common_chars += i
+a = "apple"
+b = "grape"
 
-print("Common characters:", common_chars)
+common = ""
+
+for char in a:
+    if char in b and char not in common:
+        common += char
+
+print("Common characters:", common)
+
